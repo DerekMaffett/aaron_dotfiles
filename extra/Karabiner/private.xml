@@ -17,42 +17,16 @@
     <url>file:///Applications/Firefox.app</url>
   </vkopenurldef>
   <vkopenurldef>
-    <name>KeyCode::VK_OPEN_URL_APP_Gmail</name>
-    <url type="shell">
-      <![CDATA[ osascript $HOME/.bin/gmail-personal.scpt ]]>
-    </url>
-  </vkopenurldef>
-  <vkopenurldef>
     <name>KeyCode::VK_OPEN_URL_APP_GoogleChrome</name>
     <url>file:///Applications/Google%20Chrome.app</url>
-  </vkopenurldef>
-  <!-- <vkopenurldef> -->
-  <!--   <name>KeyCode::VK_OPEN_URL_APP_GoogleChrome</name> -->
-  <!--   <url type="shell"> -->
-  <!--     <![CDATA[ osascript $HOME/.bin/chrome.scpt ]]> -->
-  <!--   </url> -->
-  <!-- </vkopenurldef> -->
-  <vkopenurldef>
-    <name>KeyCode::VK_OPEN_URL_APP_WorkMail</name>
-    <url type="shell">
-      <![CDATA[ osascript $HOME/.bin/gmail-substantial.scpt ]]>
-    </url>
   </vkopenurldef>
   <vkopenurldef>
     <name>KeyCode::VK_OPEN_URL_APP_Skype</name>
     <url>file:///Applications/Skype.app</url>
   </vkopenurldef>
   <vkopenurldef>
-    <name>KeyCode::VK_OPEN_URL_APP_Flowdock</name>
-    <url>file:///Applications/Flowdock.app</url>
-  </vkopenurldef>
-  <vkopenurldef>
-    <name>KeyCode::VK_OPEN_URL_APP_Messages</name>
-    <url>file:///Applications/Messages.app</url>
-  </vkopenurldef>
-  <vkopenurldef>
-    <name>KeyCode::VK_OPEN_URL_APP_Mailbox</name>
-    <url>file:///Applications/Mailbox%20(Beta).app</url>
+    <name>KeyCode::VK_OPEN_URL_APP_Slack</name>
+    <url>file:///Applications/Slack.app</url>
   </vkopenurldef>
 
   <item>
@@ -63,10 +37,8 @@
       <appendix>;f - Firefox</appendix>
       <appendix>;i - iTerm</appendix>
       <appendix>;k - Skype</appendix>
-      <appendix>;l - Flowdock</appendix>
-      <appendix>;m - Messages</appendix>
+      <appendix>;s - Slack</appendix>
       <appendix>;n - nvALT</appendix>
-      <appendix>;x - Mailbox</appendix>
       <identifier vk_config="true">notsave.quick_app_switch</identifier>
       <autogen>__ShowStatusMessage__ Quick App Switch</autogen>
 
@@ -75,10 +47,8 @@
       <autogen>__KeyToKey__ KeyCode::F, KeyCode::VK_OPEN_URL_APP_Firefox, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
       <autogen>__KeyToKey__ KeyCode::I, KeyCode::VK_OPEN_URL_APP_iTerm, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
       <autogen>__KeyToKey__ KeyCode::K, KeyCode::VK_OPEN_URL_APP_Skype, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
-      <autogen>__KeyToKey__ KeyCode::L, KeyCode::VK_OPEN_URL_APP_Flowdock, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
-      <autogen>__KeyToKey__ KeyCode::M, KeyCode::VK_OPEN_URL_APP_Messages, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
+      <autogen>__KeyToKey__ KeyCode::S, KeyCode::VK_OPEN_URL_APP_Slack, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
       <autogen>__KeyToKey__ KeyCode::N, KeyCode::VK_OPEN_URL_APP_nvALT, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
-      <autogen>__KeyToKey__ KeyCode::X, KeyCode::VK_OPEN_URL_APP_Mailbox, KeyCode::VK_CONFIG_FORCE_OFF_notsave_quick_app_switch, Option::NOREPEAT</autogen>
 
       <include path="passthru.xml">
         <replacementdef>
